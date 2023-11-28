@@ -1,0 +1,94 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Grenze Gotisch', serif;
+}
+body {
+    background-image: url("../img1/1.jpg"); /* photo de fond avec utilisation de chemin absolut de l'image ./file */
+    background-size:cover; /* ajuste la taille de l'image qui couvre toute la page */
+    background-repeat: no-repeat;/* empeche la repétition de l'image*/
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 5rem;
+    padding: 3rem;
+    display: flex;
+    width: 900px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: #C0C0C0;
+    scroll-behavior: smooth;
+
+}
+.text {
+    display: inline;
+}
+ h1 {font-family:'Grenze Gotisch', 'serif','Rubik Moonrocks', sans-serif;
+    color: #8B0000;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    text-align: center;
+    color: #8B0000;
+}
+h2 {font-family: 'Grenze Gotisch', 'serif','Rubik Moonrocks', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    color: white; 
+}
+
+p {
+    display: inline;
+    font-family:'Grenze Gotisch', 'serif','Rubik Moonrocks', sans-serif;
+    justify-content: center;
+    font-size: 26px;
+    text-align: center;
+    color: black;
+    padding: 20px;
+
+}
+h3 {
+    font-family:'Grenze Gotisch', 'serif','Rubik Moonrocks', sans-serif;
+    color: #8B0000;
+    font-size: 30px;
+}
+ol {
+    margin-left: 4rem;
+    font-family:'Grenze Gotisch', 'serif','Rubik Moonrocks', sans-serif;
+    color: black;
+    font-size: 20px;
+}
+.clickToPlay{
+display: flex;
+justify-content: center;
+width: 80px;
+height: 60px;
+border-radius: 45%;
+color: white;
+background-color: black;
+margin-left: 5rem; 
+font-family:'Grenze Gotisch', 'serif','Rubik Moonrocks', sans-serif;
+font-size: 30px;
+}
+#btn {
+    display: flex;
+    justify-content: center;
+    color: #8B0000;
+    font-size: 40px;
+    font-family:'Grenze Gotisch', 'serif','Rubik Moonrocks', sans-serif;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    border-radius: 20px;
+   
+}
